@@ -1,5 +1,35 @@
 let div = document.getElementById('menudiv');
 
+let notifiaction = document.getElementById('notifiaction');
+
+
+const mytime = setTimeout(mygreeting, 6000);
+
+function mygreeting() {
+  // Tab to edit
+notifiaction.style.display="block"
+}
+
+function exitfanction() {
+  // Tab to edit
+  notifiaction.style.display="none"
+}
+
+
+let textnoti = document.getElementById('textnoti2');
+
+
+const mytime5 = setTimeout(textnoti1, 7800);
+
+
+function textnoti1() {
+  // Tab to edit
+  
+textnoti.innerHTML="مطور الموقع مينا شحاتة"
+}
+
+
+
 function menushow() {
   // Tab to edit
   if (div.style.display == "none") {
@@ -128,19 +158,17 @@ abctext3.innerText="concted internet : " + onlin1;
 
 
 
-
-
-
 var darkMode = false;
 
 // انشاء دالة لتغيير الوضع المظلم
 function dark() {
+  
   // تبديل قيمة المتغير
   darkMode = !darkMode;
   // التحقق من قيمة المتغير
   if (darkMode) {
     // إذا كان الوضع المظلم مفعل، تغيير الأنماط
-    document.body.style.backgroundColor = "#2A3033";
+    document.body.style.backgroundColor = "#1E222D";
     document.body.style.color = "white";
     document.getElementById("button80").innerText = "الوضع المضيء";
   } else {
@@ -149,7 +177,17 @@ function dark() {
     document.body.style.color = "black";
     document.getElementById("button80").innerText = "الوضع المظلم";
   }
+  
+
+  
 }
+
+
+let divdark = document.getElementById('darkmode1');
+
+
+
+
 
 
 
@@ -194,7 +232,6 @@ if (typeof Storage !== "undefined") {
   // If local storage is not supported, display an error message
   document.getElementById("visitorCountDisplay").innerHTML = "Error: local storage not supported";
 }
-
 
 
 
