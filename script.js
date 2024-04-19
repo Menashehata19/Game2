@@ -19,7 +19,7 @@ function exitfanction() {
 let textnoti = document.getElementById('textnoti2');
 
 
-const mytime5 = setTimeout(textnoti1, 7800);
+const mytime5 = setTimeout(textnoti1, 8000);
 
 
 function textnoti1() {
