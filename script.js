@@ -29,6 +29,21 @@ textnoti.innerHTML="مطور الموقع مينا شحاتة"
 }
 
 
+const closenoti = setTimeout(closenotifaction1, 10500);
+
+function closenotifaction1() {
+  // Tab to edit
+  notifiaction.style.display="none"
+  
+}
+
+
+
+
+
+
+
+
 
 function menushow() {
   // Tab to edit
